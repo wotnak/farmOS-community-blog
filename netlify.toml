@@ -1,0 +1,3 @@
+[build]
+  publish = "farmOS.org/public/"
+  command = "npm run build-preview"
