@@ -2,6 +2,6 @@
   "private": true,
   "name": "farmos-community-blog",
   "scripts": {
-    "build-preview": "rm -rf farmOS.org && git clone --depth=1 --branch source-repos-previews --single-branch https://github.com/wotnak/farmOS.org && cd farmOS.org && npm i && BLOG_REPO=$REPOSITORY_URL BLOG_REPO_BRANCH=$HEAD npm run build"
+    "build-preview": "rm -rf farmOS.org && git clone --depth=1 https://github.com/farmOS/farmOS.org && cd farmOS.org && npm i && BLOG_REPO=$REPOSITORY_URL BLOG_REPO_BRANCH=$HEAD npm run build"
   }
 }
